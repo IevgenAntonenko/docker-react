@@ -6,3 +6,4 @@ before_install:
 
 script:
   - docker run visits npm run test -- --coverage
+  - docker stop visits
