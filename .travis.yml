@@ -1,4 +1,6 @@
 sudo: required
+env:
+  - CI=true
 services:
   - docker
 before_install:
